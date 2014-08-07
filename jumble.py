@@ -1,4 +1,3 @@
-import sys
 # Part 1: store all words from unix default dictionary into a python dictionary.
 # The keys are sorted word and values are all valid words of the sorted string.
 # For example values stored in key 'dgo' are ['dog', 'god', 'god']
@@ -29,3 +28,6 @@ def jumble(word):
 
 word=raw_input('Enter a word: ')
 jumble(word)
+
+##if there are repeated letters in the input string, words in the output list will be repetitive.
+## it is easy to add the check in the jumble function block. It, has not been done in this implementation though.
